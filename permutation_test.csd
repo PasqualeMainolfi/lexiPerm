@@ -22,8 +22,8 @@ iadd = 0.00707
 idur[] = fillarray(idur_note, idur_note + iadd, idur_note + (iadd * 2), idur_note + (iadd * 3), idur_note + (iadd * 4), idur_note + (iadd * 5), idur_note + (iadd * 6), 1/4)
 
 print(lenarray(idur))
-ipermNote[][] lexiPerm iseq
-ipermDur[][] lexiPerm idur
+ipermNote[][] lexiPerm iseq // generate n! permutation
+ipermDur[][] lexiPerm idur // generate n! permutation
 indxNote[] = genarray(0, lenarray(ipermNote) - 1)
 indxDur[] = genarray(0, lenarray(ipermDur) - 1)
 
