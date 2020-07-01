@@ -69,7 +69,7 @@ break:
 
 
   instr perm_test
-a1 = poscil(linseg:a(0, .001, 1/5, p3 - .001, 0), cpsmidinn(p4))
+a1 = poscil(linseg:a(0, .001, 1/5, p3 - .001, 0) * poscil(linseg:a(0, .0001, 1, p3 - .0001, 0), 7), cpsmidinn(p4))
 outs(a1, a1)
   endin
 
