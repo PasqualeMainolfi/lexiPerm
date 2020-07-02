@@ -24,7 +24,7 @@ xout(iout_arr)
     opcode factorial, i, i
 ivalue xin
 
-if(ivalue == 0 || ivalue == 1) then
+if(ivalue == 0) then
     ifac = 1
 else
     ifac = ivalue * factorial(ivalue - 1)
